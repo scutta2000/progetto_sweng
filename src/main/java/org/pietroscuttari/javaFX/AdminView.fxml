@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.pietroscuttari.controllers.AdminController">
+   <children>
+      <AnchorPane prefHeight="418.0" prefWidth="600.0">
+         <children>
+            <Line endX="508.0" layoutX="77.0" layoutY="232.0" startX="-63.0" />
+            <ChoiceBox fx:id="bikes" layoutX="129.0" layoutY="114.0" prefWidth="150.0" />
+            <ChoiceBox fx:id="bikeType" layoutX="129.0" layoutY="169.0" prefWidth="150.0" />
+            <Button layoutX="374.0" layoutY="156.0" mnemonicParsing="false" onAction="#addBike" prefHeight="51.0" prefWidth="82.0" text="Add Bike" textAlignment="CENTER" wrapText="true" />
+            <Button layoutX="374.0" layoutY="101.0" mnemonicParsing="false" onAction="#unlockBike" prefHeight="51.0" prefWidth="82.0" text="Unlock Bike" textAlignment="CENTER" wrapText="true" />
+            <ChoiceBox fx:id="locks" layoutX="129.0" layoutY="263.0" prefWidth="150.0" />
+            <Button layoutX="374.0" layoutY="250.0" mnemonicParsing="false" onAction="#removeLock" prefHeight="51.0" prefWidth="82.0" text="Remove Lock" textAlignment="CENTER" wrapText="true" />
+            <ChoiceBox fx:id="lockType" layoutX="129.0" layoutY="335.0" prefWidth="150.0" />
+            <Button layoutX="374.0" layoutY="322.0" mnemonicParsing="false" onAction="#addLock" prefHeight="51.0" prefWidth="82.0" text="Add Lock" textAlignment="CENTER" wrapText="true" />
+            <Text layoutX="175.0" layoutY="69.0" strokeType="OUTSIDE" text="Admin view" textAlignment="CENTER" wrappingWidth="249.62499618530273">
+               <font>
+                  <Font size="42.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
