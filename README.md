@@ -1,2 +1,2 @@
 # Progetto sweng
-The repo for my university progect for the course in software engineering
+The repo for my university project for the course in software engineering
